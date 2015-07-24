@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en" id="ng-app" ng-app="app">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Title -->
+    <title>Tyson Hughes | Welcome</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body id="bodyArea" ng-controller="ScrollCtrl">
+
+<!-- NAVIGATION -->
+<div class="navbar-wrapper" ng-controller="NavCtrl">
+    <header class="navbar navbar-default navbar-static-top" role="navigation">
+        <div class="container">
+
+            <!-- BUTTON -->
+            <div class="navbar-header">
+                <button type="button" class="btn btn-lg navbar-toggle" ng-init="isCollapsed=true"
+                        ng-click="isCollapsed=!isCollapsed">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#" ng-click="isCollapsed=true">Tyson Hughes</a>
+            </div>
+
+            <!-- LINKS -->
+            <div class="navbar-collapse" ng-click="isCollapsed=true" collapse="isCollapsed">
+                <ul class="nav navbar-nav">
+                    <li ng-repeat="link in links">
+                        <a href="{{link.url}}" ng-click="">{{link.name | uppercase}}</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+</div>
+
+<!-- CONTENT -->
+<div ng-view="content"></div>
+
+<!-- FOOTER -->
+<footer>
+    <div class="container">
+        <div class="row">
+
+            <!-- LINKS -->
+            <div class="col-sm-3 col-xs-12" ng-controller="NavCtrl">
+                <ul class="text-center">
+                    <li ng-repeat="link in links">
+                        <a href="{{link.url}}" ng-click="">{{link.name | uppercase}}</a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- SOCAIL MEDIA LINKS -->
+            <div class="col-sm-6 col-sm-push-3 col-xs-12">
+                <ul class="text-center">
+                    <li><a href="#" class="fa fa-facebook fa-2x"></a></li>
+                    <li><a href="#" class="fa fa-twitter fa-2x"></a></li>
+                    <li><a href="#" class="fa fa-envelope fa-2x"></a></li>
+                    <li><a href="http://goo.gl/2gtakc" class="fa fa-google-plus-square fa-2x"></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- GO TO TOP -->
+<a id="btn-top" class="fa fa-chevron-circle-up fa-3x text-right" ng-click="gotoTop()"></a>
+
+<!-- jQuery -->
+<script type="text/javascript" src="js/lib/jquery/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="js/lib/script.js"></script>
+<!-- Angularjs -->
+<script type="text/javascript" src="js/lib/angular/angular.min.js"></script>
+<script type="text/javascript" src="js/lib/angular/angular-route.min.js"></script>
+<!-- UI Bootstrap -->
+<script type="text/javascript" src="js/lib/bootstrap/ui-bootstrap-tpls-0.10.0.min.js"></script>
+<!-- Controller -->
+<script type="text/javascript" src="js/lib/app.js"></script>
+<!--slider added--->
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.0-rc.2/angular-animate.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.10.3/TweenMax.min.js"></script>
+
+</body>
+</html>

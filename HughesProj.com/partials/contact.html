@@ -1,0 +1,38 @@
+<div class="container" ng-controller="contactCtrl">
+	<div class="row">
+		<div class="col-sm-4">
+			<h3>Drop me a line!</h3>
+			<hr>
+			<address>
+				<strong>Email:</strong><br>
+				<a href="mailto:#">name@domain.com</a><br><br>
+				<strong>Phone:</strong><br>
+				(555)123-4567
+			</address>
+		</div>
+		<div class="col-sm-8 contact-form">
+			<form name="form" method="post" class="css-form" role="form" novalidate>
+				<div class="row">
+					<div class="col-xs-6 col-md-6 form-group" ng-class="{ 'has-error' : form.name.$invalid && !form.name.$pristine }">
+						<input class="form-control" id="name" name="name" ng-model="name" placeholder="Name" type="text" required autofocus>
+						<p ng-show="form.name.$error.required && !form.name.$pristine" class="help-block">Required!</p>
+					</div>
+					<div class="col-xs-6 col-md-6 form-group" ng-class="{ 'has-error' : form.email.$invalid && !form.email.$pristine }">
+						<input class="form-control" id="email" name="email" ng-model="email" placeholder="Email" type="email" required>
+						<p ng-show="form.email.$error.required && !form.email.$pristine" class="help-block">Required!</p>
+						<p ng-show="form.email.$error.email" class="help-block">Not a valid email!</p>
+					</div>
+					<div class="col-md-12 form-group" ng-class="{ 'has-error' : form.message.$invalid && !form.message.$pristine }">
+						<textarea class="form-control" id="message" name="message" ng-model="message" placeholder="Message" rows="5" required></textarea>
+						<p ng-show="form.message.$error.required && !form.message.$pristine" class="help-block">Required!</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-12 col-md-12 form-group">
+						<button type="submit" class="btn btn-primary pull-right" ng-click="update(form)" ng-disabled="form.$invalid">Submit</button>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>

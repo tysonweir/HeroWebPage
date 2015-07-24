@@ -1,0 +1,23 @@
+#home-container{text-align:center;}
+.navbar-default{background-color:#1D5379;border-color:#1F4F68;}
+.jumbotron{margin-top:-70px;padding:0;}
+.jumbotron img{height:480px;width:100%;}
+.contact-form{margin-top:20px;}
+footer{background-color:#1D5379;padding-top:100px;padding-bottom:100px;border-top:1px solid #eee;}
+footer .container li{text-decoration:none;list-style:none;display:inline;}
+a#btn-top{display:none;position:fixed;z-index:1000;bottom:0;right:1em;}
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+ }
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+ }
