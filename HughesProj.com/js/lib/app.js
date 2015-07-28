@@ -1,4 +1,4 @@
-var myApp = angular.module('app', ['ngRoute', 'ngAnimate', 'ui.bootstrap']);
+var myApp = angular.module('app', ['ngRoute', 'ui.bootstrap']);
 
 myApp.config(['$routeProvider', function ($routeProvider) {
     $routeProvider
@@ -83,6 +83,7 @@ myApp.controller('Images', ['$scope', function ($scope) {
 
 myApp.controller('Slider', ['$scope', function ($scope) {
 
+    $scope.myInterval = 5000;
     $scope.slides = [
         {image: 'images/cities/Banner.jpg', description: 'tower'},
         {image: 'images/cities/empire.jpg', description: 'empire'},
@@ -91,5 +92,7 @@ myApp.controller('Slider', ['$scope', function ($scope) {
         {image: 'images/cities/ocean.jpg', description: 'ocean'},
         {image: 'images/cities/dark.jpg', description: 'dark'}
     ];
+
+
 
 }]);
