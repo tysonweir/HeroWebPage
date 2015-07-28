@@ -67,18 +67,8 @@ myApp.controller('Images', ['$scope', function ($scope) {
         message: 'Hello, all',
     };
 
-    //var cities = {
-    //   tower:'images/cities/Banner.jpg',
-    //   empire: 'images/cities/empire.jpg',
-    //   blur: 'images/cities/Blur.jpg',
-    //   colored: 'images/cities/colored.jpg',
-    //   ocean: 'images/cities/ocean.jpg',
-    //   dark: 'images/cities/dark.jpg',
-    //
-    //};
-
     $scope.hero = hero;
-    //$scope.cities = cities;
+
 }]);
 
 myApp.controller('Slider', ['$scope', function ($scope) {
@@ -92,7 +82,9 @@ myApp.controller('Slider', ['$scope', function ($scope) {
         {image: 'images/cities/ocean.jpg', description: 'ocean'},
         {image: 'images/cities/dark.jpg', description: 'dark'}
     ];
-
-
-
 }]);
+
+myApp.controller('VillainsPopulate', ['$scope', function ($scope) {
+    $scope.villains = "Villains/villains.json";
+}]);
+

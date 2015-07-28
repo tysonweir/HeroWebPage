@@ -1,0 +1,44 @@
+{
+  "BatmanVillains": [
+
+    { "Villain": "Joker",
+     "Description": "The Joker, Clown Prince of Crime, is Batman's arch-nemesis. An agent of chaos known for his purple three-piece suit and insidious smile, he has caused Batman more suffering than any other villain he has ever faced. His origin, name, and true motivations remain a mystery."
+    },
+    { "Villain": "Scar Crow",
+      "Description": "Often known as the Master of Fear, the Scarecrow is an enemy of Batman. Recently, the Scarecrow was chosen to be the Sinestro of Sector-2814, due to his ability to instill fear. But Scarecrow is losing his sanity due to his lack of fear, knowing only Batman can scare him."
+    },
+    {  "Villain": "Bane",
+      "Description": "Forced to serve a life sentence for the crimes of his father, Bane was born and raised in the underground prison, Peña Duro. There, he forged himself into the pinnacle of physical and mental potential all without seeing the light of day. Escaping to Gotham City, Bane pitted himself against Batman and became famous as 'The Man Who Broke the Bat'. His strength is often enhanced greatly by a drug called 'Venom' that puts him in an unstable mental state."
+    },
+    {  "Villain": "Two-Face",
+      "Description": "Formerly the D.A. of Gotham City, Harvey Dent was an ally of Batman and Commissioner Gordon until he had acid thrown onto the left side of his face by a mob boss, scarring him for life. The incident drove Harvey insane and he became Two-Face, obsessed with chance and always carrying a double-headed coin, which he flips to determine his every decision."
+    }
+  ],
+  "SupermanVillains": [
+
+    { "Villain": "Darkseid",
+      "Description": "Worshipped as the 'God of Evil', Darkseid is the supreme monarch of planet Apokolips. Considered one of Superman's greatest adversaries, the greatest enemy of New Genesis and the greatest threat to the DC Universe, he seeks to control all living things with the Anti-Life Equation."
+    },
+    { "Villain": "Lex Luthor",
+      "Description": "Lex Luthor, Superman's arch-nemesis, is one of the most gifted beings alive, whose hatred of 'interfering aliens' pushes him down the path of a sociopath. Known for his 'ends justifies the means' approach to life, his single-minded and often brutal focus puts him at odds with The Man of Steel. Lex Luthor is arguably DC Comic's most iconic villain."
+    },
+    {  "Villain": "Imperiex",
+      "Description": "The ultimate conquering force featured in the 'Our Worlds at War.' First appeared in Superman #153. This being literally has the power of the big bang contained within him which he uses for destroying and recreating entire universes."
+    }
+  ],
+  "FlashVillains": [
+
+    { "Villain": "Professor Zoom",
+      "Description": "Eobard Thawne was a brilliant scientist born in the 25th century, where Barry Allen's heroism as the Flash is the stuff of legend. Seeking to emulate his idol, Thawne traveled back in time to meet the Flash, but learned instead that his destiny was to become the Reverse-Flash, Allen's greatest nemesis. Rendered unstable by this knowledge, Thawne set out to erase Barry Allen from history and establish himself as the one true Flash."
+    },
+    { "Villain": "Gorilla Grodd",
+      "Description": "Gorilla Grodd is a super intelligent, telepathic, anthropomorphic gorilla. A deadly opponent to all of the champions of good, Grodd is most well known for his rivalry with The Flash."
+    },
+    {  "Villain": "Captain Cold",
+      "Description": "Leonard Snart is a blue collar criminal who has dubbed himself Captain Cold. He is an honorable villain in the fact that he has a strong moral code that he and his team mates must follow. Captain Cold is the leader of the group of villains known as 'The Rogues'."
+    },
+    {  "Villain": "Rag Doll",
+      "Description": "A supervillain born with a rare ability, triple-jointedness, which enabled him to bend his arms and legs in astonishing ways."
+    }
+  ]
+}
