@@ -9,6 +9,7 @@
     <div class="row">
         <div class="col-lg-4 col-md-4">
             <img class="img-circle img-responsive" ng-src="{{hero.superman}}">
+
             <h2>SUPERMAN</h2>
         </div>
         <div class="col-lg-4 col-md-4">
@@ -29,16 +30,21 @@
     <div class="row" ng-controller="VillainsPopulate">
         <div class="col-md-7">
             <h2>Villains</h2>
-            <p class="lead">Select a Hero.</p>
-            <select >
-                <option value ="">Batman</option>
-                <option value ="">Superman</option>
-                <option value ="">Flash</option>
-            </select>
+
+            <p class="lead">Select a Hero</p>
+            <select ng-model="modelHero"
+                    ng-options="hero as hero.hero for hero in villains"
+                    ng-change="modelVillain = modelVillain.dataSources[0]"></select>
+            <p></p>
+            <div>
+                <p class="lead">Select Villain</p>
+                <select ng-model="modelVillain"
+                        ng-options="villain.id for villain in modelHero.dataSources"></select>
+                <p> {{modelVillain.description}} </p>
+            </div>
         </div>
         <div class="col-md-5">
-            <img class="img-responsive"
-                 src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MDAiIGhlaWdodD0iNTAwIj48cmVjdCB3aWR0aD0iNTAwIiBoZWlnaHQ9IjUwMCIgZmlsbD0iI2VlZSI+PC9yZWN0Pjx0ZXh0IHRleHQtYW5jaG9yPSJtaWRkbGUiIHg9IjI1MCIgeT0iMjUwIiBzdHlsZT0iZmlsbDojYWFhO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1zaXplOjMxcHg7Zm9udC1mYW1pbHk6QXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWY7ZG9taW5hbnQtYmFzZWxpbmU6Y2VudHJhbCI+NTAweDUwMDwvdGV4dD48L3N2Zz4=">
+            <img class="img-responsive" ng-src="{{modelVillain.img}}">
         </div>
     </div>
 
@@ -57,7 +63,8 @@
         </div>
     </div>
 
-    <!-- Divider -->
+    <!-- Divider
+
     <hr>
 
     <div class="row">
@@ -71,4 +78,6 @@
                  src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MDAiIGhlaWdodD0iNTAwIj48cmVjdCB3aWR0aD0iNTAwIiBoZWlnaHQ9IjUwMCIgZmlsbD0iI2VlZSI+PC9yZWN0Pjx0ZXh0IHRleHQtYW5jaG9yPSJtaWRkbGUiIHg9IjI1MCIgeT0iMjUwIiBzdHlsZT0iZmlsbDojYWFhO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1zaXplOjMxcHg7Zm9udC1mYW1pbHk6QXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWY7ZG9taW5hbnQtYmFzZWxpbmU6Y2VudHJhbCI+NTAweDUwMDwvdGV4dD48L3N2Zz4=">
         </div>
     </div>
+    -->
 </div>
+
