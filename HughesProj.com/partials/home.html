@@ -28,56 +28,71 @@
     <hr>
 
     <div class="row" ng-controller="VillainsPopulate">
-        <div class="col-md-7">
+        <div class="col-md-5">
             <h2>Villains</h2>
 
             <p class="lead">Select a Hero</p>
             <select ng-model="modelHero"
                     ng-options="hero as hero.hero for hero in villains"
                     ng-change="modelVillain = modelVillain.dataSources[0]"></select>
+
             <p></p>
+
             <div>
                 <p class="lead">Select Villain</p>
                 <select ng-model="modelVillain"
-                        ng-options="villain.id for villain in modelHero.dataSources"></select>
+                        ng-options="villain.id for villain in modelHero.dataSources"
+                        ng-show="modelHero"></select>
+
                 <p> {{modelVillain.description}} </p>
             </div>
         </div>
-        <div class="col-md-5">
-            <img class="img-responsive" ng-src="{{modelVillain.img}}">
+        <div class="col-md-7">
+            <img class="img-circle img-responsive" ng-src="{{modelVillain.img}}">
         </div>
     </div>
 
     <!-- Divider -->
     <hr>
 
-    <div class="row">
+    <div class="row" ng-controller="RadioHeroButton">
         <div class="col-md-5">
-            <img class="img-responsive"
-                 src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MDAiIGhlaWdodD0iNTAwIj48cmVjdCB3aWR0aD0iNTAwIiBoZWlnaHQ9IjUwMCIgZmlsbD0iI2VlZSI+PC9yZWN0Pjx0ZXh0IHRleHQtYW5jaG9yPSJtaWRkbGUiIHg9IjI1MCIgeT0iMjUwIiBzdHlsZT0iZmlsbDojYWFhO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1zaXplOjMxcHg7Zm9udC1mYW1pbHk6QXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWY7ZG9taW5hbnQtYmFzZWxpbmU6Y2VudHJhbCI+NTAweDUwMDwvdGV4dD48L3N2Zz4=">
+            <img class="img-responsive img-circle"
+                 ng-src="{{default.symbol}}">
         </div>
         <div class="col-md-7">
-            <h2>Heading.<span class="text-muted">muted.</span></h2>
+            <h2>Hero <span class="text-muted">Symbols</span></h2>
 
-            <p class="lead">hello world.</p>
+            <p class="lead">Select a Hero</p>
+
+            <div ng-repeat="hero in heros">
+                <label>
+                    {{hero.hero}}
+                    <input type="radio"
+                           ng-model="default.symbol"
+                           ng-value="hero.symbol"
+                           id="{{hero}}"
+                           name="default.symbol">
+                </label></div>
         </div>
     </div>
+</div>
 
-    <!-- Divider
+<!-- Divider
 
-    <hr>
+<hr>
 
-    <div class="row">
-        <div class="col-md-7">
-            <h2>Heading.<span class="text-muted">muted.</span></h2>
+<div class="row">
+    <div class="col-md-7">
+        <h2>Heading.<span class="text-muted">muted.</span></h2>
 
-            <p class="lead">hello world.</p>
-        </div>
-        <div class="col-md-5">
-            <img class="img-responsive"
-                 src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MDAiIGhlaWdodD0iNTAwIj48cmVjdCB3aWR0aD0iNTAwIiBoZWlnaHQ9IjUwMCIgZmlsbD0iI2VlZSI+PC9yZWN0Pjx0ZXh0IHRleHQtYW5jaG9yPSJtaWRkbGUiIHg9IjI1MCIgeT0iMjUwIiBzdHlsZT0iZmlsbDojYWFhO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1zaXplOjMxcHg7Zm9udC1mYW1pbHk6QXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWY7ZG9taW5hbnQtYmFzZWxpbmU6Y2VudHJhbCI+NTAweDUwMDwvdGV4dD48L3N2Zz4=">
-        </div>
+        <p class="lead">hello world.</p>
     </div>
-    -->
+    <div class="col-md-5">
+        <img class="img-responsive"
+             src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MDAiIGhlaWdodD0iNTAwIj48cmVjdCB3aWR0aD0iNTAwIiBoZWlnaHQ9IjUwMCIgZmlsbD0iI2VlZSI+PC9yZWN0Pjx0ZXh0IHRleHQtYW5jaG9yPSJtaWRkbGUiIHg9IjI1MCIgeT0iMjUwIiBzdHlsZT0iZmlsbDojYWFhO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1zaXplOjMxcHg7Zm9udC1mYW1pbHk6QXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWY7ZG9taW5hbnQtYmFzZWxpbmU6Y2VudHJhbCI+NTAweDUwMDwvdGV4dD48L3N2Zz4=">
+    </div>
+</div>
+-->
 </div>
 
