@@ -2,16 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b7fb32e3-a317-456e-a871-07c51088f1ad" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HughesProj.com/partials/Flashbio.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HughesProj.com/partials/batmanbio.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HughesProj.com/partials/supermanbio.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HughesProj.com/images/cities/Banner.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HughesProj.com/images/cities/Blur.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HughesProj.com/images/cities/colored.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HughesProj.com/images/cities/ocean.jpg" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HughesProj.com/partials/Flashbio.html" afterPath="$PROJECT_DIR$/HughesProj.com/partials/Flashbio.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HughesProj.com/js/lib/app.js" afterPath="$PROJECT_DIR$/HughesProj.com/js/lib/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HughesProj.com/partials/batmanbio.html" afterPath="$PROJECT_DIR$/HughesProj.com/partials/batmanbio.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HughesProj.com/partials/home.html" afterPath="$PROJECT_DIR$/HughesProj.com/partials/home.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HughesProj.com/index.html" afterPath="$PROJECT_DIR$/HughesProj.com/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HughesProj.com/css/style.css" afterPath="$PROJECT_DIR$/HughesProj.com/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HughesProj.com/partials/supermanbio.html" afterPath="$PROJECT_DIR$/HughesProj.com/partials/supermanbio.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="webPage.iws" />
@@ -37,7 +33,7 @@
         <entry file="file://$PROJECT_DIR$/HughesProj.com/js/lib/app.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="53" column="62" selection-start-line="53" selection-start-column="34" selection-end-line="53" selection-end-column="62" />
+              <caret line="63" column="51" selection-start-line="63" selection-start-column="31" selection-end-line="63" selection-end-column="51" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -45,38 +41,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="batmanbio.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HughesProj.com/partials/batmanbio.html">
+      <file leaf-file-name="__cdnjs.cloudflare.com_ajax_libs_gsap_1.10.3_TweenMax.min.js" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Library/Caches/WebStorm10/extLibs/__cdnjs.cloudflare.com_ajax_libs_gsap_1.10.3_TweenMax.min.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.625">
-              <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="supermanSymbol.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HughesProj.com/images/Heros/supermanSymbol.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="store.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HughesProj.com/partials/store.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="about.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HughesProj.com/partials/about.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="14" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="15" column="2051" selection-start-line="15" selection-start-column="2051" selection-end-line="15" selection-end-column="2051" />
               <folding />
             </state>
           </provider>
@@ -85,18 +54,58 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/HughesProj.com/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-29.375">
-              <caret line="47" column="108" selection-start-line="47" selection-start-column="108" selection-end-line="47" selection-end-column="108" />
+            <state vertical-scroll-proportion="-35.625">
+              <caret line="66" column="66" selection-start-line="66" selection-start-column="59" selection-end-line="66" selection-end-column="66" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="supermanbio.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HughesProj.com/partials/supermanbio.html">
+      <file leaf-file-name="batmanbio.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HughesProj.com/partials/batmanbio.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.125">
-              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+            <state vertical-scroll-proportion="-20.625">
+              <caret line="33" column="79" selection-start-line="33" selection-start-column="79" selection-end-line="33" selection-end-column="79" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="script.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HughesProj.com/js/lib/script.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="3" column="44" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="villains.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HughesProj.com/Villains/villains.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-10.625">
+              <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HughesProj.com/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-10.0">
+              <caret line="18" column="3" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bootstrap.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HughesProj.com/css/bootstrap.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="1147.7037">
+              <caret line="1613" column="11" selection-start-line="1613" selection-start-column="3" selection-end-line="1613" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -105,18 +114,8 @@
       <file leaf-file-name="Flashbio.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/HughesProj.com/partials/Flashbio.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.625">
-              <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DHTML.js" pinned="false" current-in-tab="false">
-        <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/DHTML.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="1444" column="0" selection-start-line="1444" selection-start-column="0" selection-end-line="1444" selection-end-column="0" />
+            <state vertical-scroll-proportion="-21.875">
+              <caret line="35" column="28" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -125,8 +124,8 @@
       <file leaf-file-name="home.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/HughesProj.com/partials/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7049567">
-              <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.3776554">
+              <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
               <folding>
                 <element signature="n#style#0;n#img#0;n#slide#0;n#carousel#0;n#div#0;n#!!top" expanded="true" />
               </folding>
@@ -151,16 +150,16 @@
       <list>
         <option value="$PROJECT_DIR$/HughesProj.com/partials/history.html" />
         <option value="$PROJECT_DIR$/HughesProj.com/css/bootstrap.css" />
-        <option value="$PROJECT_DIR$/HughesProj.com/css/style.css" />
         <option value="$PROJECT_DIR$/HughesProj.com/Villians/villians.json" />
         <option value="$PROJECT_DIR$/HughesProj.com/Villains/villains.json" />
-        <option value="$PROJECT_DIR$/HughesProj.com/partials/home.html" />
         <option value="$PROJECT_DIR$/HughesProj.com/partials/bio.html" />
-        <option value="$PROJECT_DIR$/HughesProj.com/js/lib/app.js" />
         <option value="$PROJECT_DIR$/HughesProj.com/index.html" />
-        <option value="$PROJECT_DIR$/HughesProj.com/partials/Flashbio.html" />
-        <option value="$PROJECT_DIR$/HughesProj.com/partials/batmanbio.html" />
+        <option value="$PROJECT_DIR$/HughesProj.com/css/style.css" />
         <option value="$PROJECT_DIR$/HughesProj.com/partials/supermanbio.html" />
+        <option value="$PROJECT_DIR$/HughesProj.com/partials/batmanbio.html" />
+        <option value="$PROJECT_DIR$/HughesProj.com/partials/Flashbio.html" />
+        <option value="$PROJECT_DIR$/HughesProj.com/partials/home.html" />
+        <option value="$PROJECT_DIR$/HughesProj.com/js/lib/app.js" />
       </list>
     </option>
   </component>
@@ -311,6 +310,54 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Villains" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webPage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webPage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HughesProj.com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Villains" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FlashVillains" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webPage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webPage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HughesProj.com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -334,8 +381,8 @@
       <recent name="$PROJECT_DIR$/HughesProj.com/images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/HughesProj.com/images/Villains/SupermanVillains" />
       <recent name="$PROJECT_DIR$/HughesProj.com/images/Villains/BatmanVillains" />
+      <recent name="$PROJECT_DIR$/HughesProj.com/images/Villains/SupermanVillains" />
       <recent name="$PROJECT_DIR$/HughesProj.com/images/Heros" />
       <recent name="$PROJECT_DIR$/HughesProj.com/images/cities" />
     </key>
@@ -454,20 +501,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/HughesProj.com/partials/history.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HughesProj.com/partials/contact.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/HughesProj.com/partials/store.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -563,16 +596,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="7" column="7979" selection-start-line="7" selection-start-column="7979" selection-end-line="7" selection-end-column="7979" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HughesProj.com/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="18" selection-end-column="51" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -646,14 +671,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HughesProj.com/js/lib/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="44" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/HughesProj.com/images/Villains/BatmanVillains/joker2.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -684,22 +701,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HughesProj.com/Villains/villains.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.625">
-          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HughesProj.com/css/bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-23.407408">
-          <caret line="958" column="11" selection-start-line="958" selection-start-column="1" selection-end-line="958" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/HughesProj.com/partials/about.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.0">
@@ -716,14 +717,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HughesProj.com/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-29.375">
-          <caret line="47" column="108" selection-start-line="47" selection-start-column="108" selection-end-line="47" selection-end-column="108" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/HughesProj.com/partials/store.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.0">
@@ -732,49 +725,102 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HughesProj.com/js/lib/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="53" column="62" selection-start-line="53" selection-start-column="34" selection-end-line="53" selection-end-column="62" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/HughesProj.com/images/Heros/supermanSymbol.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/HughesProj.com/images/Villains/BatmanVillains/jokerBio.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HughesProj.com/partials/supermanbio.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-28.75">
+          <caret line="46" column="6" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/HughesProj.com/partials/Flashbio.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.625">
-          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+        <state vertical-scroll-proportion="-21.875">
+          <caret line="35" column="28" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/HughesProj.com/partials/batmanbio.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.625">
-          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        <state vertical-scroll-proportion="-20.625">
+          <caret line="33" column="79" selection-start-line="33" selection-start-column="79" selection-end-line="33" selection-end-column="79" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HughesProj.com/partials/supermanbio.html">
+    <entry file="file://$PROJECT_DIR$/HughesProj.com/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.125">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        <state vertical-scroll-proportion="1147.7037">
+          <caret line="1613" column="11" selection-start-line="1613" selection-start-column="3" selection-end-line="1613" selection-end-column="11" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HughesProj.com/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.0">
+          <caret line="18" column="3" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HughesProj.com/Villains/villains.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.625">
+          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Caches/WebStorm10/extLibs/__cdnjs.cloudflare.com_ajax_libs_gsap_1.10.3_TweenMax.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="2051" selection-start-line="15" selection-start-column="2051" selection-end-line="15" selection-end-column="2051" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HughesProj.com/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-35.625">
+          <caret line="66" column="66" selection-start-line="66" selection-start-column="59" selection-end-line="66" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HughesProj.com/js/lib/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="44" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HughesProj.com/js/lib/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="63" column="51" selection-start-line="63" selection-start-column="31" selection-end-line="63" selection-end-column="51" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/HughesProj.com/partials/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7049567">
-          <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.3776554">
+          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
           <folding>
             <element signature="n#style#0;n#img#0;n#slide#0;n#carousel#0;n#div#0;n#!!top" expanded="true" />
           </folding>

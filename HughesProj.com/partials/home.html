@@ -34,7 +34,8 @@
             <p class="lead">Select a Hero</p>
             <select ng-model="modelHero"
                     ng-options="hero as hero.hero for hero in villains"
-                    ng-change="modelVillain = modelVillain.dataSources[0]"></select>
+                    ng-change="modelVillain = modelVillain.dataSources[0]">
+            </select>
 
             <p></p>
 
@@ -42,7 +43,8 @@
                 <p class="lead">Select Villain</p>
                 <select ng-model="modelVillain"
                         ng-options="villain.id for villain in modelHero.dataSources"
-                        ng-show="modelHero"></select>
+                        ng-show="modelHero">
+                </select>
 
                 <p> {{modelVillain.description}} </p>
             </div>

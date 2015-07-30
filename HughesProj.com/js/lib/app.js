@@ -67,6 +67,8 @@ myApp.controller('DropDownHero', ['$scope', function ($scope) {
     ];
 }]);
 
+
+
 myApp.controller('NavCtrl', ['$scope', function ($scope) {
     $scope.links = [
         {"name": "about", "url": "#/partials/about"},

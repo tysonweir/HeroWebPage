@@ -14,8 +14,11 @@ a#btn-top{display:none;position:fixed;z-index:1000;bottom:0;right:1em;}
  height: 200px;
  margin-top: -99px;
  font-size: 200px;
-}
 
+}
+p {
+ text-indent: 30px;
+}
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
 
